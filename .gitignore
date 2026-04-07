@@ -1,0 +1,58 @@
+# Базовые исключения
+build/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.sln
+*.vcxproj*
+*.vc.db
+*.VC.db
+
+# Специфичные для CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake
+cmake-tools.vsix
+toolchain.cmake
+
+# Покрытие кода и профилирование
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+coverage.info
+coverage.txt
+coverage_report/
+lcov.info
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*~
+*.orig
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Артефакты сборки
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
